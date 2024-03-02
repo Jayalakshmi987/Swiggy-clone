@@ -1,0 +1,41 @@
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.nav-items{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items >li{
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px; 
+}
+
+.res-logo{
+    height: 150px;
+    width: 200px;
+}
+
+.res-card{
+    height: 350px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.body{
+    display: flex;
+    flex-wrap: wrap;
+}
